@@ -13,7 +13,7 @@ import javax.swing.Timer;
 public class PolymorphWindow extends JPanel implements ActionListener{
     public static final int WIDTH = 900;
     public static final int HEIGHT = 600;
-    
+   
     private JFrame window;
     private Timer timer;
     
@@ -30,7 +30,8 @@ public class PolymorphWindow extends JPanel implements ActionListener{
    	 window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    	 window.pack();
    	 window.setVisible(true);
-   	 
+//   	 int mx = 
+//   	 int my =
    	 bluePoly = new BluePolymorph(50, 50);
    	 
    	 timer = new Timer(1000 / 30, this);

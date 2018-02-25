@@ -29,6 +29,6 @@ public class EncapsulateTheData {
 	Object memberObj; //can be any object type except String. Strings get turned into objects.
 	
 	public static void main(String[] args) {
-		
+		EncapsulateTheData EncapsulateTheData = new EncapsulateTheData();
 	}
 }
